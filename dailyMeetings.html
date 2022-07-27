@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Daily</title>
+    <style>
+      .output {
+        position: relative;
+        width: fit-content;
+      }
+      .output button {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        z-index: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Heyloow!</h1>
+    <h3>
+      Are you tired of redoing the same thing several times every end of month?
+      We brought you the solution
+    </h3>
+    <p>
+      Juust select the month of any year you want and we will generate the time
+      of the daily meetings
+    </p>
+    <br /><br />
+
+    <!-- <input placeholder="Enter some text" name="name" /> -->
+    <label for="month">Month: </label>
+    <input type="month" name="month" id="month" /> <br />
+    <br />
+    <div class="output">
+      <textarea id="values" cols="80" rows="60"></textarea>
+      <button onclick="myFunction()">Copy</button>
+    </div>
+    <p id="parag"></p>
+  </body>
+  <script src="test.js"></script>
+</html>
