@@ -54,7 +54,6 @@
         time of the daily meetings
       </p>
 
-      <!-- <input placeholder="Enter some text" name="name" /> -->
       <label for="month">Month: </label>
       <input type="month" name="month" id="month" /> <br />
       <br />
@@ -81,7 +80,6 @@
     input.addEventListener("input", updateValue)
 
     function updateValue(e) {
-      //log.textContent = e.target.value
       const date = e.target.value /*get the selected date*/
       const splitDate =
         date.split("-") /*split the month variable from the year variable*/
@@ -117,7 +115,6 @@
         }
 
         const ent = Object.values(entries)
-        //const t = ent[0].timestamp
 
         m = month - 1 //because the months in js start from 0 not 1 (if we chose 2 it won't be February it will be March)*/
         let firstDay = new Date(
@@ -144,7 +141,6 @@
             output.push([{ ...ent[0] }, { ...ent[1] }])
           }
         }
-        //console.log(output)
 
         /* Put the result in the textarea */
         document.getElementById("values").innerHTML = JSON.stringify(
