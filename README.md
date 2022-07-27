@@ -1,5 +1,4 @@
 # DailyMeetings
-# DailyMeetings
 Few lines of HTML, JS, CSS (Bootstrap) that allows us to : creates a json-array with these two entries
 ```javascript
 [
