@@ -24,3 +24,6 @@ It createe entries in the array for each workday in the month (month as paramete
 
 ## Running 
 Just clone this repository and open the **dailyMeetings.html** file with any browser
+
+### Or
+You can access it as a website : **https://sargana.000webhostapp.com/**
